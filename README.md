@@ -1,14 +1,38 @@
 # RetiFluidNet
-[Paper](https://ieeexplore.ieee.org/abstract/document/9980422) 
-[Paper Arxiv ](https://arxiv.org/pdf/2209.12468) 
-
-
-Official Tensorflow Implementation of "A Self-Adaptive and Multi-Attention Deep Convolutional Network for Retinal OCT Fluid Segmentation".
+Official Tensorflow Implementation of "A Self-Adaptive and Multi-Attention Deep Convolutional Network for Retinal OCT Fluid Segmentation".[Paper](https://ieeexplore.ieee.org/abstract/document/9980422) 
 
 
 <img src='imgs/1.png' width=850>  
 
 
+## Other Implementations
+- [[Tensorflow]](https://github.com/aidialab/RetiFluidNet) by AidiaLAB.
+
+
+
+## Getting Started ###
+### Installation
+- Clone this repo:
+```bash
+git clone -b master --single-branch https://github.com/arminbiglari/RetiFluidNet.git
+cd RetiFluidNet
+```
+- Install Tensorflow and dependencies
+
+
+### Train
+- To train the model, Please adjust the params.yaml file based on your dataset.
+```bash
+python3 train.py
+```
+### Test
+- To Test the model, Please adjust the params.yaml file based on your dataset.
+```bash
+python3 test.py
+```
+
+### Pre-trined Weights
+- To access pre-traiend models please contact arminbiglariii@gmail.com
 
 
 
