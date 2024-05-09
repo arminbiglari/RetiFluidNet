@@ -26,7 +26,7 @@ cd RetiFluidNet
 python3 train.py
 ```
 ### Test
-- To Test the model, Please adjust the params.yaml file based on your dataset.
+- To test the model, Please adjust the params.yaml file based on your dataset.
 ```bash
 python3 test.py
 ```
