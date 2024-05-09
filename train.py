@@ -74,9 +74,6 @@ def train(args):
     train_data = train_data.shuffle(buffer_size = args.buffer_size, seed=args.seed).batch(args.batch_size).prefetch(buffer_size = args.autotune)
     val_data   = val_data.batch(1).prefetch(buffer_size = args.autotune)
 
-    
-    train_data = train_data.take(2)
-    val_data   = val_data.take(2)
 
     lr_scheduler = tf.keras.callbacks.LearningRateScheduler(train_utils.decay_schedule)
 
