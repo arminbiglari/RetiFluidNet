@@ -1,5 +1,16 @@
 # RetiFluidNet
-Official Tensorflow Implementation of "A Self-Adaptive and Multi-Attention Deep Convolutional Network for Retinal OCT Fluid Segmentation"
+[Paper](https://ieeexplore.ieee.org/abstract/document/9980422) 
+[Paper Arxiv ](https://arxiv.org/pdf/2209.12468) 
+
+
+Official Tensorflow Implementation of "A Self-Adaptive and Multi-Attention Deep Convolutional Network for Retinal OCT Fluid Segmentation".
+
+
+<img src='imgs/1.png' width=850>  
+
+
+
+
 
 ### Citation
 
