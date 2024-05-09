@@ -17,7 +17,12 @@ Official Tensorflow Implementation of "A Self-Adaptive and Multi-Attention Deep 
 git clone -b master --single-branch https://github.com/arminbiglari/RetiFluidNet.git
 cd RetiFluidNet
 ```
-- Install Tensorflow and dependencies
+
+- Install Dependencies:
+```bash
+pip install -r requirments.txt
+```
+
 
 
 ### Train

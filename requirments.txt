@@ -1,0 +1,10 @@
+numpy 
+matplotlib
+tabulate
+opencv-python
+tensorflow
+tensorflow-addons
+tqdm
+yaml
+glob
+sklearn
