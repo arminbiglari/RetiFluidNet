@@ -31,7 +31,7 @@ python3 train.py
 python3 test.py
 ```
 
-### Pre-trined Weights
+### Pre-trained Weights
 - To access pre-traiend models please contact arminbiglariii@gmail.com
 
 
